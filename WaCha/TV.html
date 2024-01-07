@@ -8,6 +8,12 @@
     <meta name="WACHA" content="width=device-width, initial-scale=1">
     <title>MyPhotos</title>
     <link rel="stylesheet" type="text/css" href="otherCSS.css">
+    <script>
+      function showMsg(){
+        var msg = document.getElementById("msg");
+        msg.innerHTML = "<i>2021年台灣電視劇，全劇共12集，台灣首部海陸腔客語劇。<br>以1950年代為背景，述說新竹北埔的客家茶產業，如何在爾虞我詐的商場中，面對強大競爭起落浮沉，靠著茶業創造經濟奇蹟為題材。<br>由連俞涵、郭子乾、温昇豪、薛仕凌、黃健瑋、李杏、許安植領銜主演</i>"
+      }
+    </script>
   </head>
   <body>
     <!-- 頁首 -->
@@ -29,6 +35,8 @@
     <section>
       <article>
         <h2 style="color: rgb(74, 62, 25);">茶金</h2>
+        <button type="button" onclick="javascript:showMsg();">顯示訊息</button>
+        <p id="msg"></p>
       </article>
     </section>
     
@@ -51,7 +59,7 @@
           <a href="" title="Instagram" style="color: rgb(76, 94, 76);"><img src="ig.png" alt="Instagram圖片" width="5%" height="5%">挖哈</a>
           <a href="" title="Line"><img src="LINE_logo.svg.png" alt="Line圖片" width="5%" height="5%"></a>
           <br>
-          <a class="a-back" href="WaCha.html">Back to top</a>
+          <a class="a-back" href="Other.html">Back to 相關衍伸</a>
       </div>
     </footer>
 
