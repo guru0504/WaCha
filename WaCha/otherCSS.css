@@ -60,6 +60,10 @@ aside {
   background-color: chocolate;
 }
 
+header > img{
+  float: left;
+}
+
 header {
   display: block; 
   width: 100%; 
