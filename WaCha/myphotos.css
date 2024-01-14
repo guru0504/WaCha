@@ -2,7 +2,6 @@
 
 body {
   width: 100%; 
-  max-width: 960px;		
   margin: 0 auto; 
   padding: 0px;
   font-family: 微軟正黑體;
@@ -11,7 +10,7 @@ body {
 section {
   display: block; 
   width: 100%; 
-  height: ;
+  height:100% ;
   margin: 0 auto;
   float: right;
   background-color: #e8e0d8;
@@ -64,10 +63,14 @@ header {
   display: block; 
   width: 100%; 
   margin: 0 auto;
-  height: 100%;
+  height: auto;
   color: white;
   background-color: rgb(76, 94, 76);
   float: middle;
+}
+
+header > img{
+  float: left;
 }
 
 header > ul {  
@@ -78,14 +81,16 @@ header > ul {
 header > ul > li {
   position: relative;
   float: left;
-  width: 122px;  
+  width: 210px;  
   margin: 0px 1px;
+  margin-left: 5px;
   padding: 10px;  
   list-style: none;
   border: 8px solid rgb(76, 94, 76);
   border-radius: 5px;
   background-color: rgb(155, 176, 155);
   font-weight: bold;
+  font-size: large;
   }
 
 header > ul > li > a {
@@ -111,14 +116,14 @@ article{
 
 article > p {
   font-weight: bold ;
-  font-size: small;
+  font-size: medium;
 }
 
 article > ul { 
   float: center; 
   position: relative;
   padding: 0px;
-  margin: 40px;
+  margin-left: 320px;
 }
 
 article > ul > li {
@@ -164,6 +169,8 @@ article > ul > li > a {
   width: 100%;
   height: 100px;  
   text-align: left;
+  margin-left: 90px;
+  font-size: large;
 }
 
 .img-photo {

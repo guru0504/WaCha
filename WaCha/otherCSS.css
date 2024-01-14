@@ -2,7 +2,6 @@
 
 body {
   width: 100%; 
-  max-width: 960px;		
   margin: 0 auto; 
   padding: 0px;
   font-family: 微軟正黑體;
@@ -79,14 +78,16 @@ header > ul {
 header > ul > li {
   position: relative;
   float: left;
-  width: 122px;  
+  width: 210px;  
   margin: 0px 1px;
+  margin-left: 5px;
   padding: 10px;  
   list-style: none;
   border: 8px solid rgb(76, 94, 76);
   border-radius: 5px;
   background-color: rgb(155, 176, 155);
   font-weight: bold;
+  font-size: large;
   }
 
 header > ul > li > a {
